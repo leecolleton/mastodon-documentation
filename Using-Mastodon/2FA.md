@@ -1,16 +1,16 @@
 # 2-Factor Authentication
 
-2-Factor Authentication is a security mechanism that requires you to enter a computer generated code from your phone every time you log into Mastodon.
+A security mechanism which improves the security of your account is two-factor authentication. It requires you to have something else besides your password in order to log in to your Mastodon account. The supported methods include a computer generated code from a smartphone app, a "U2F FIDO" hardware key that works over USB or NFC, or a backup recovery code which you can download and/or print out.
 
-We highly recommend that you set up 2-factor authentication as it prevents malicious users from logging into your account if they obtain your password.
+We highly recommend that you set up 2-factor authentication as it prevents malicious users from logging into your account if they obtain your password by looking over your shoulder, using a key logger, or guessing it.
 
 ## Warning
 
-If you lose access to your 2-factor authentication (such as by losing your phone or performing a factory reset) and you do cannot log in, you will not be able to access your account and will need to contact an instance admin to remove 2-factor authentication from your account.
+**If you lose access to your 2-factor authentication (such as by losing your phone or performing a factory reset) and you do not have a _security key_ or _recovery code,_ you will not be able to access your account and will need to contact an instance admin to remove 2-factor authentication from your account.**
 
 ## Setup
 
-1. Open your [settings page](https://mastodon.social/settings/two_factor_auth) and navigate to the Two-factor Authentication page
+1. With a web browser, open your _Preferences_ and navigate to _Accounts_ then _Two-factor Authentication_ page.
 2. Press the big blue "Enable" button that appears on the right ![screenshot](screenshots/2fa/enable.png)
 3. Follow instructions below to install an authenticator for your smartphone
 
